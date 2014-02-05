@@ -1,0 +1,11 @@
+name    'nrvale0-google_cloudsdk'
+version '0.9.0'
+source 'https://github.com/nrvale0/puppet-google_cloudsdk'
+author 'Nathan Valentine - nrvale0@gmail.com | nathan@puppetlabs.com'
+license 'Apache License, Version 2.0'
+summary 'Install and configure Google Cloud SDK'
+description 'Install and configure Google Cloud SDK'
+project_page 'https://github.com/nrvale0/puppet-google_cloudsdk'
+
+dependency 'camptocamp/archive', '>= 0.0.1'
+dependency 'puppetlabs/stdlib', '>= 3.1.0'
