@@ -18,9 +18,9 @@ class google_cloud_sdk(
 
   exec { 'install Google Cloud SDK':
     path => ['/bin', '/sbin', '/usr/bin', '/usr/sbin'],
-    creates => "${install_dir}/google-cloud-sdk/install.sh",
+    creates => "${install_dir}/google-cloud-sdk/bin/gcloud",
     cwd => "${install_dir}/google-cloud-sdk",
-    command => '/bin/echo "" | ./install.sh install.sh --usage-reporting false --disable-installation-options --bash-completion false --update-rc false',
+    command => '/bin/echo "" | ./install.sh --usage-reporting false --disable-installation-options --bash-completion false --update-rc false',
     require => Archive::Extract['google-cloud-sdk'],
   }
 }
