@@ -1,0 +1,30 @@
+{
+  "name": "nrvale0-google_cloud_sdk",
+  "version": "0.9.1",
+  "source": "https://github.com/nrvale0/puppet-google_cloud_sdk",
+  "author": "Nathan Valentine - nrvale0@gmail.com | nathan@puppetlabs.com",
+  "license": "Apache License, Version 2.0",
+  "summary": "Install and configure Google Cloud SDK",
+  "description": "Install and configure Google Cloud SDK",
+  "project_page": "https://github.com/nrvale0/puppet-google_cloud_sdk",
+  "dependencies": [
+    {
+      "name": "camptocamp/archive",
+      "version_requirement": ">= 0.0.1"
+    },
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 3.1.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "2dad84bd468a013eb205c9f48c82c6fa",
+    "README.md": "ea0efc1425549bf166645f4eb5dbe221",
+    "manifests/init.pp": "79bc6adf67ed1db55cd1b13d4672b8de",
+    "manifests/params.pp": "b75b529e847245cd1a212eb4f1b740bc",
+    "tests/init.pp": "9807bcbdd0858a1055d4802df76e335f"
+  }
+}
