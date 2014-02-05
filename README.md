@@ -9,7 +9,7 @@ Download and install the Google Cloud SDK tarball on Linux nodes.
 * install_dir : defaults to /opt/google-cloud-sdk
 
 ## Bug reports
-http://github.com/nrvale0/puppet-google_cloud_sdk/Issues
+http://github.com/nrvale0/puppet-google_cloud_sdk/issues
 
 ## License
 Apache 2.0
